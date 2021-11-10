@@ -2,12 +2,18 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
     padding: 16px 250px;
+    margin: 0;
 }
 
 .hlogo {
@@ -40,7 +46,6 @@ body {
 .image {
     width: 50%;
     height: auto;
-    background-color: grey;
 }
 
 .subutton {
@@ -69,3 +74,60 @@ a {
     font-weight: bolder;
 }
 
+.bodyone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardbox {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 64px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bodyoneheader {
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 36px 0;
+    opacity: 0.7;
+}
+
+.picture {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.text {
+    width: 150px;
+    text-align: center;
+    color: grey;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 128px 256px;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.auoteauthor {
+    text-align: right;
+    font-size: 30px;
+    font-weight: bolder;
+}
