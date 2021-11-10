@@ -1,5 +1,8 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -46,10 +49,12 @@ img {
 .image {
     width: 50%;
     height: auto;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .subutton {
-    padding: 8px 16px;
+    padding: 8px 32px;
     background-color: #3882F6;
     border-radius: 8px;
     width: fit-content;
@@ -130,4 +135,37 @@ a {
     text-align: right;
     font-size: 30px;
     font-weight: bolder;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    background-color: #3882F6;
+    width: fit-content;
+    margin: 128px 0;
+    color: white;
+    padding: 32px 128px;
+    border-radius: 16px;
+}
+
+.ctalineone {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.ctasubutton {
+    padding: 8px 32px;
+    background-color: white;
+    border: 3px solid white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    max-width: m;
 }
